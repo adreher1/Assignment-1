@@ -42,25 +42,25 @@ def main():
   
   
   # Ask user for number of people in room
-  num_people = input('number of people in room:')
+  person_count_str= input('number of people in room:')
 
       
 
   # Convert str data to int
-  num_people = int(num_people)
+  person_count = int(person_count_str)
   
 
 
   # Use the formula to compute the result
-  num_intro = (num_people * (num_people - 1)) / HALF
-  num_intro = str(num_intro)
+  introductions = (person_count * (person_count - 1)) / HALF
+  introductions = str(introductions)
 
   
   
  
 
   # Display labeled and formatted introduction count
-  print('There are '+ num_intro + ' introductions')
+  print('There are '+ introductions + ' introductions')
   
 if __name__ == '__main__':
   main()
