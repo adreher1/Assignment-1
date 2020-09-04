@@ -1,0 +1,80 @@
+Python 3.8.5 (v3.8.5:580fbb018f, Jul 20 2020, 12:11:27) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+=============== RESTART: /Users/avadreher/Desktop/Assignment 1.py ==============
+How many introductions will occur if everyone 
+introduces themseves to every other person?
+number of people in room:-1
+There are 1.0 introductions
+>>> 
+=============== RESTART: /Users/avadreher/Desktop/Assignment 1.py ==============
+How many introductions will occur if everyone 
+introduces themseves to every other person?
+number of people in room:0
+There are 0.0 introductions
+>>> 
+=============== RESTART: /Users/avadreher/Desktop/Assignment 1.py ==============
+How many introductions will occur if everyone 
+introduces themseves to every other person?
+number of people in room:1
+There are 0.0 introductions
+>>> 
+=============== RESTART: /Users/avadreher/Desktop/Assignment 1.py ==============
+How many introductions will occur if everyone 
+introduces themseves to every other person?
+number of people in room:2
+There are 1.0 introductions
+>>> 
+=============== RESTART: /Users/avadreher/Desktop/Assignment 1.py ==============
+How many introductions will occur if everyone 
+introduces themseves to every other person?
+number of people in room:3
+There are 3.0 introductions
+>>> 
+=============== RESTART: /Users/avadreher/Desktop/Assignment 1.py ==============
+How many introductions will occur if everyone 
+introduces themseves to every other person?
+number of people in room:4
+There are 6.0 introductions
+>>> 
+=============== RESTART: /Users/avadreher/Desktop/Assignment 1.py ==============
+How many introductions will occur if everyone 
+introduces themseves to every other person?
+number of people in room:5
+There are 10.0 introductions
+>>> 
+=============== RESTART: /Users/avadreher/Desktop/Assignment 1.py ==============
+How many introductions will occur if everyone 
+introduces themseves to every other person?
+number of people in room:10
+There are 45.0 introductions
+>>> 
+=============== RESTART: /Users/avadreher/Desktop/Assignment 1.py ==============
+How many introductions will occur if everyone 
+introduces themseves to every other person?
+number of people in room:100
+There are 4950.0 introductions
+>>> 
+=============== RESTART: /Users/avadreher/Desktop/Assignment 1.py ==============
+How many introductions will occur if everyone 
+introduces themseves to every other person?
+number of people in room:5.2
+Traceback (most recent call last):
+  File "/Users/avadreher/Desktop/Assignment 1.py", line 66, in <module>
+    main()
+  File "/Users/avadreher/Desktop/Assignment 1.py", line 50, in main
+    person_count = int(person_count_str)
+ValueError: invalid literal for int() with base 10: '5.2'
+>>> 
+=============== RESTART: /Users/avadreher/Desktop/Assignment 1.py ==============
+How many introductions will occur if everyone 
+introduces themseves to every other person?
+number of people in room:cat
+Traceback (most recent call last):
+  File "/Users/avadreher/Desktop/Assignment 1.py", line 66, in <module>
+    main()
+  File "/Users/avadreher/Desktop/Assignment 1.py", line 50, in main
+    person_count = int(person_count_str)
+ValueError: invalid literal for int() with base 10: 'cat'
+>>> 
